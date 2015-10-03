@@ -79,7 +79,7 @@ body:after {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
+  background: url(https://cloud.githubusercontent.com/assets/7109481/10264192/da5f76d8-69c1-11e5-8753-fb2523112a73.gif) no-repeat;
 }
 
 .lb-nav {
@@ -110,7 +110,7 @@ body:after {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../img/prev.png) left 48% no-repeat;
+  background: url(https://cloud.githubusercontent.com/assets/7109481/10264194/da73d7fe-69c1-11e5-828c-fe38765a2735.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -128,7 +128,7 @@ body:after {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../img/next.png) right 48% no-repeat;
+  background: url(https://cloud.githubusercontent.com/assets/7109481/10264193/da706f38-69c1-11e5-8aca-00678c3639fe.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -194,7 +194,7 @@ body:after {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../img/close.png) top right no-repeat;
+  background: url(https://cloud.githubusercontent.com/assets/7109481/10264191/da5c1ab0-69c1-11e5-8308-403bb468b3f0.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
