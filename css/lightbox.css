@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  content: url(https://cloud.githubusercontent.com/assets/7109481/10264191/da5c1ab0-69c1-11e5-8308-403bb468b3f0.png) url(https://cloud.githubusercontent.com/assets/7109481/10264192/da5f76d8-69c1-11e5-8753-fb2523112a73.gif) url(https://cloud.githubusercontent.com/assets/7109481/10264194/da73d7fe-69c1-11e5-828c-fe38765a2735.png) url(https://cloud.githubusercontent.com/assets/7109481/10264193/da706f38-69c1-11e5-8aca-00678c3639fe.png);
   display: none;
 }
 
