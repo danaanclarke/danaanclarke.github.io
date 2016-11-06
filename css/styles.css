@@ -1,246 +1,167 @@
-* {
-	box-sizing: border-box;
+body {
+	display: flex;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 850px;
+}
+
+.header {
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+	top: 0;
+	left: 0;
+	font-family: "ff mark pro", sans-serif;
+	font-weight: 700;
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+	text-transform: uppercase;
+	margin-top: 3rem;
+}
+
+@media (min-width: 468px) {
+	h2 {
+		margin-top: 3rem;
+	}
+}
+
+h1 {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	font-family: "brandon grotesque", sans-serif;
+	font-weight: 700;
+	text-rendering: optimizeLegibility;
+	background-color: white;
+	text-transform: uppercase;
+	margin-top: 3rem;
+}
+
+
+
+@media (min-width: 468px) {
+	h1 {
+		margin-top: 3rem;
+	}
+}
+
+@media (min-width: 650px) {
+	h1 {
+		margin-top: 6.6rem;
+	}
+}
+
+.box {
+  display: none;
+}
+
+@media (min-width: 650px) {
+	.box {
+		display: block;
+  	height: 260px;
+  	width: 63%;
+  	border: 4px solid black;
+  	position: absolute;
+  	right: 0;
+  	top: 50px;
+  	z-index: -1;
+	}
+}
+
+p {
+	position: relative;
+	top: 13rem;
+	font-family: "ff mark pro", sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
-html {
-	font-size: 67%;
+@media (min-width: 468px) {
+	p {
+		top: 9.6rem;
+	}
 }
 
-html, body {
-	height:	100%;
+@media (min-width: 650px) {
+	p {
+		top: 20rem;
+	}
 }
 
-body {
-	margin-top: -11px;
+@media (min-width: 650px) {
+	.p1 {
+		float:right;
+		margin-left: 1.2rem;
+		width: 64.5%;
+	}
+}
+
+@media (min-width: 650px) {
+	.p2 {
+		float:right;
+		margin-left: 1.2rem;
+		margin-bottom: 2.4rem;
+		width: 64.5%;
+	}
+}
+
+
+.connect-icons {
+	position: relative;
+	float: left;
+	top: 13rem;
+	list-style: none;
+  	margin-right: 16px;
+  	padding: 0;
+ }
+
+ .connect-icons li {
+ 	float: right;
+ 	margin-right: 1.2rem;
+ }
+
+ @media (min-width: 468px) {
+	.connect-icons {
+		top: 9.6rem;
+	}
+}
+
+@media (min-width: 650px) {
+	.connect-icons {
+		width: 63%;
+		float: right;
+		top: 19rem;
+	}
+}
+
+@media (min-width: 650px) {
+	.connect-icons li {
+		float: left;
+	}
 }
 
 a {
-	text-decoration: none;
-}
-
-a:link {
-	color: #8C989A;
-}
-
-a:visited {
-	color: #8C989A;
-}
-
-a:hover {
-	color: #1B9EC0;
-}
-
-.nav {
-	height: 7rem;
-	width: 100%;
-	/*position: fixed;
-	top: 0;
-	z-index: 150;*/
-	background: white;
-}
-
-.logo {
-	float: left;
-	margin: 2.5rem;
-}
-
-.nav ul li {
-	margin-right: 16%;
-	text-decoration: none;
-	display: inline;
-	float: right;
-	vertical-align: middle;
-	margin-top: 2rem;
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 1.8rem;
-	color: #8C989A;
-	line-height: 31px;
-
-}
-
-.banner {
-	width: 100%;
-	background-color: #f4f4f4;
-}
-
-.centered {
-  width: 100%;
-  margin-top: 20px;
-}
-
-.screens {
-	height:200px;
-	margin: 0 auto;
 	display: block;
+	height: 2.4rem;
+ 	width: 2.4rem;
+ 	background-size: 2.4rem;
+ 	background-position: center;
+ 	background-clip: border-box;
+ 	background-repeat: no-repeat;
 }
 
-.banner p {
-	font-family: "ff-spinoza-web-pro", sans-serif;
-	font-size: 32px;
-	color: #9F9F9F;
-	line-height: 1;
-	text-align: center;
-}
+ .twitter {
+ 	background-image: url("../img/twitter.svg");
+ }
 
-.name {
-	text-align: center;
-	padding-top: 10vh;
-	font-family: "Avenir next", Verdana, sans-serif;
-	font-size: 2.8rem;
-	color: #1B9EC0;
-	line-height: 3.4rem;
-	letter-spacing: .8rem;
-}
+ .linkedin {
+ 	background-image: url("../img/linkedin.svg");
+ }
 
-.job_title {
-	text-align: center;
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 2rem;
-	color: #9F9F9F;
-	line-height: 3.4rem;
-	max-height: 82px;
-	min-height: 7rem;
-}
-
-.heading_title {
-	text-align: center;
-	font-family: "Avenir Next", Verdana, sans-serif;
-	font-weight: 600;
-	font-size: 4.2rem;
-	color: #E49375;
-	line-height: 6.2rem;
-	padding: 40px 0 100px 0;
-}
-
-.work {
-	width: 100%;
-	background-color: white;
-}
-
-.work_title {
-	height: 12vh;
-	width: 100%;
-	background-color: #555A6D;
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 2.8rem;
-	text-align: center;
-	color: #F9F9F9;
-	line-height: 7rem;
-	letter-spacing: 3px;
-	max-height: 82px;
-	min-height: 7rem;
-}
-
-.images {
-	max-width: 80%;
-	margin: 0 auto;
-	margin-bottom: 40px;
-}
-
-.work img {
-	max-height: 500px;
-	max-width: 30%; 
-	margin:2rem 1rem;
-}
-
-#xtrabtmmargin {
-	margin-bottom: 6rem;
-}
-
-.aboutme {
-	width: 100%;
-	background-color: #f9f9f9;
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 2.8rem;
-	text-align: center;
-	color: #F9F9F9;
-	line-height: 7rem;
-	letter-spacing: 3px;
-	min-height: 60rem;
-
-}
-
-.aboutme_title {
-	height: 12vh;
-	width: 100%;
-	background-color: #7DC1B2;
-	max-height: 82px;
-	min-height: 7rem;
-}
-
-.aboutme img {
-	width: 20%;
-	margin: 4rem 0 1rem 0;
-}
-
-.aboutme p {
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 2.1rem;
-	color: #979797;
-	line-height: 3rem;
-	max-width: 670px;
-	margin: 0 auto;
-	text-align: left;
-	padding-bottom: 4rem;
-	letter-spacing: 1.5px;
-}
-
-.contact {
-	width: 100%;
-	background-color: #F28972;
-}
-
-.contact_title {
-	height: ;
-	width: 100%;
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 2.8rem;
-	text-align: center;
-	color: #F9F9F9;
-	line-height: 7rem;
-	letter-spacing: 3px;
-	max-height: 82px;
-	min-height: 7rem;
-}
-
-.contact_buttons {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 15px;
-	color: #FFF;
-	font-size: 36px;
-	font-family: "brandon-grotesque", sans-serif;
-}
-
-.contact_buttons ul{
-	margin-bottom: 0;
-	padding-bottom: 30px;
-	/* padding-top: 0px; */
-	margin-leff: 0;
-	/* margin-left: 0; */
-	padding-left: 0;
-}
-
-.contact_buttons ul li{
-	color: white;
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 18px;
-	line-height: 1;
-	text-decoration: none;
-	display: inline-block;
-	margin: 0 3% 0 3%;
-}
-
-.contact_buttons ul li img{
-	height: 80px;
-}
-
-.contact_buttons a {
-	color:white;
-	text-decoration: none;
-	font-family: "brandon-grotesque", sans-serif;
-	font-weight: 500;
-	font-size: initial;
+.dribbble {
+	background-image: url("../img/dribbble.svg");
 }
