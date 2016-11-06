@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="33" cy="33" r="33"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="66" height="66" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-983.000000, -735.000000)">
+            <g id="Group-6" transform="translate(983.000000, 735.000000)">
+                <use id="Oval-1-Copy" stroke="#000000" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+                <g id="Group-4" transform="translate(18.000000, 16.000000)" fill="#000000">
+                    <circle id="Oval-5" cx="3.91304348" cy="3.91304348" r="3.91304348"></circle>
+                    <rect id="Rectangle-3" x="0" y="10.4347826" width="7.82608696" height="19.5652174"></rect>
+                    <path d="M16.9565217,11.6254667 L16.9565217,10.4347826 L10.4347826,10.4347826 L10.4347826,30 L16.9565217,30 L16.9565217,18.6264251 C17.3373764,17.976136 19.2364191,15.1504766 22.3210343,17.4542502 C22.2439708,20.9635063 22.3188052,29.8452361 22.3188052,29.8452361 L29.6164932,29.8452361 L29.53125,14.719769 C29.53125,14.719769 28.8513714,10.1402216 22.2439708,10.1402216 C18.6099763,10.1402216 17.3524252,10.9219201 16.9565217,11.6254667 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
