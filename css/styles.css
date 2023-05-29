@@ -104,16 +104,38 @@ p {
 /*		float:right;*/
 /*		margin-left: 1.2rem;*/
 		width: 64.5%;
+			margin-bottom: 50px;
 	}
 }
 
-@media (min-width: 650px) {
+/*@media (min-width: 650px) {
 	.p2 {
 /*		float:right;*/
 /*		margin-left: 1.2rem;
 		margin-bottom: 2.4rem;*/
 		width: 64.5%;
 	}
+}*/
+
+
+.btn2 {
+	padding:12px 24px;
+	background-color:red;
+}
+
+.btn2 {
+	width: 180px;
+	display: inline;
+	text-decoration: none;
+ background: #3159EA;
+ padding: 12px 24px;
+ color: white;
+ border-radius: 5px;
+ border: 0;
+ font-family: "ff mark pro", sans-serif;
+ font-weight: 600;
+ text-rendering: optimizeLegibility;
+ line-height: 1.5;
 }
 
 
@@ -165,10 +187,10 @@ a {
  	background-image: url("../img/twitter.svg");
  }*/
 
- .linkedin {
+/* .linkedin {
  	background-image: url("../img/linkedin.svg");
  }
-
+*/
 /*.dribbble {
 	background-image: url("../img/dribbble.svg");
 }
