@@ -19,6 +19,7 @@ h1 {
 	font-weight: 700;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 1px;
+	color: #10124E;
 }
 
 h2 {
@@ -27,30 +28,18 @@ h2 {
 	font-size: 2rem;
 	text-rendering: optimizeLegibility;
 	margin-top: 0;
+	color: #10124E;
 }
 
 
 p {
+	max-width: 680px;
 	font-family: "ff mark pro", sans-serif;
+	font-size: 1.2rem;
 	text-rendering: optimizeLegibility;
-	line-height: 1.5;
+	line-height: 1.6;
+	margin-bottom: 3.1rem;
 }
-
-.btn2 {
-	width: 180px;
-	display: inline;
-	text-decoration: none;
- background: #3159EA;
- padding: 12px 24px;
- color: white;
- border-radius: 5px;
- border: 0;
- font-family: "ff mark pro", sans-serif;
- font-weight: 600;
- text-rendering: optimizeLegibility;
- line-height: 1.5;
-}
-
 
 a {
 	display: block;
@@ -61,4 +50,23 @@ a {
  	background-clip: border-box;
  	background-repeat: no-repeat;
 }
+
+.btn2 {
+	width: 180px;
+	display: inline;
+	text-decoration: none;
+ background: #3159EA;
+ padding: 18px 30px;
+ color: white;
+ border-radius: 5px;
+ border: 0;
+ font-family: "ff mark pro", sans-serif;
+ font-size: 1.2rem;
+ font-weight: 600;
+ text-rendering: optimizeLegibility;
+ line-height: 1.5;
+}
+
+
+
 
