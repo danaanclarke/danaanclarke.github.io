@@ -1,5 +1,6 @@
 body {
 	display: flex;
+	font-family: 'FF mark pro', 'Lato', sans-serif;
 }
 
 .container {
@@ -15,7 +16,6 @@ body {
 
 h1 {
 	font-size: 3rem;
-	font-family: "ff mark pro", sans-serif;
 	font-weight: 700;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 1px;
@@ -23,7 +23,6 @@ h1 {
 }
 
 h2 {
-	font-family: "ff mark pro", sans-serif;
 	font-weight: 700;
 	font-size: 2rem;
 	text-rendering: optimizeLegibility;
@@ -34,7 +33,6 @@ h2 {
 
 p {
 	max-width: 680px;
-	font-family: "ff mark pro", sans-serif;
 	font-size: 1.2rem;
 	text-rendering: optimizeLegibility;
 	line-height: 1.6;
