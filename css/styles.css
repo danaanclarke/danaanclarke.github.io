@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	font-family: 'FF mark pro', 'Lato', sans-serif;
+	background-color: 'black'
 }
 
 .container {
